@@ -1,0 +1,210 @@
+*{
+          list-style: none;
+}
+
+body{
+          padding: 20px;
+          background-color: dimgray;
+}
+/* Encabezado */
+
+header{
+          background-color:#191A19 ;
+          display:flex;
+          border: solid gray 2px;
+          border-radius: 20px;          
+          justify-content: space-around;
+          width: auto;
+          height: auto;
+}
+.Content-header{
+          display: flex;
+}
+.logo{
+          background-color: #191A19 ;
+          border-radius: 50%;
+}
+
+.logo img{
+          width: 150px;
+          height: 150px;
+}
+.Titulo{
+          margin-top: auto;
+          margin-bottom: auto;
+}
+
+.Titulo p{
+          display: none;
+          color: white;
+}
+
+.Titulo a{        
+          padding: 10px;
+          color: white;
+          font-size: 35px;
+          text-decoration: none;
+          font-family: 'Arial Narrow Bold', sans-serif;
+}
+.Titulo a:hover{
+          color: #4E9F3D;
+          text-decoration-color: #1E5128;
+          text-decoration:underline ;
+}
+.lista{
+          margin-top: auto;
+          margin-bottom: auto;          
+
+}
+.menu{
+          display: flex;
+          align-self: center;  
+          height: auto;
+          margin-right: 40px;
+          margin-top: 20px;
+          margin-bottom: auto;
+          padding-top:auto ;
+          text-align: center;
+          padding-bottom: auto;
+}
+.menu a{
+          border-radius: 10px;
+          border-style:solid;
+          background-color: #281d2b;
+          padding: 10px;
+          font-size: 19px;
+          width: auto;
+          margin-top: auto;
+          margin-bottom: auto;
+          margin: 5px;
+          color: rgb(218, 213, 213);
+          border-color: rgb(157, 155, 155);
+          text-decoration: none;
+}
+.menu a:hover{
+          border-color:#4E9F3D;
+          color: #258c3a;
+          text-decoration: underline;
+
+}
+.Submenu{
+          display: none;
+          position:absolute;
+          width: auto;
+          justify-content: start;
+          padding-left: 0px;
+          background-color: #281d2b;
+          border-color:gray;
+          border-style: solid;
+          border-radius: 10px;
+}
+.menu li:hover .Submenu{
+          display: flex;
+}
+/* Series ark */
+
+.Series-ark{
+          display: flex;
+          flex-direction: column;
+          background-color: #191A19;
+          border-radius: 10px;          
+          padding: 5px;
+          margin: 0 auto;
+          margin-top: 20px;
+          text-align: center;
+          padding-left:35px ;
+          padding-right: 35px;
+}
+.Series-ark h1{
+          color: white;
+          text-align: center;
+          border: 3px solid white;
+          margin: 0 auto;          
+          width: auto;
+          padding: 10px;
+}
+.Series-ark h1:hover{
+          color: crimson;
+}
+hr{
+          width: 400px;
+}
+
+.CardSeriesArk1{
+          display: inline-block;
+          text-align: center;
+          margin:0  auto;
+          border-color:white;
+          border-style:solid;
+          padding: 10px;
+          border-radius: 10px;
+          margin: 10px;
+}
+.CardSeriesArk1 h1{
+          border-style: none;
+          color: white;
+          text-align: center;
+          border: 3px solid white;
+          margin: 0 auto;          
+          width: auto;
+          padding: 10px;
+}
+.CardSeriesArk1 a{
+          color: white;
+          text-decoration: none;
+          font-size: 19px;
+          border: white solid 2px;
+          padding: 5px;
+}
+.CardSeriesArk1 a:hover{
+          color:crimson ;
+          border:brown solid 2px;
+
+}
+.CardSeriesArk2{
+          display: inline-block;
+          text-align: center;
+          margin:0  auto;
+          border-color:white;
+          border-style:solid;
+          padding: 10px;
+          border-radius: 10px;
+          margin: 10px;
+}
+.CardSeriesArk2 h1{
+          border-style: none;
+          color: white;
+          text-align: center;
+          border: 3px solid white;
+          margin: 0 auto;          
+          width: auto;
+          padding: 10px;
+}
+.CardSeriesArk2 a{
+          color: white;
+          text-decoration: none;
+          font-size: 19px;
+          border: white solid 2px;
+          padding: 5px;
+}
+.CardSeriesArk2 a:hover{
+          color:crimson ;
+          border:brown solid 2px;
+
+}
+
+@media (max-width:850px){
+           body{        background-color:dimgray ;} 
+
+           header{
+                    display: flex;
+                    text-align: center;
+           }
+           .Titulo p{
+                    display: block;
+           }
+           .Content-header{
+                    display: grid;
+           }
+          
+}
