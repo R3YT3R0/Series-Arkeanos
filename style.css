@@ -193,6 +193,37 @@ hr{
 
 }
 
+.sobre-el-usuario{
+          display: grid;
+          text-align: center;
+          font-size: 25px;        
+            color:blanchedalmond;
+          background-color: #191A19;
+          margin: 0 auto;
+          height: auto;
+          margin-top: 30px;
+          border-radius: 20px;
+          padding-bottom: 20px;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.sobre-el-usuario h1{
+          color: white;
+          text-align: center;
+          border: 3px solid white;
+          margin: 0 auto;          
+          width: auto;
+          padding: 10px;
+          font-size: 30px;
+}
+.sobre-el-usuario h1:hover{
+          border-color: #1E5128;
+          color: #258c3a;
+}
+.sobre-el-usuario hr{
+          color: #258c3a;
+}
+
+
 @media (max-width:850px){
            body{        background-color:dimgray ;} 
 
